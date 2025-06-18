@@ -14,7 +14,7 @@ class QuitSessionPage(BasePage):
         self.home_screen_logo = (By.ID, 'homescreen_idnow_logo')
 
     def select_reason_and_quit(self, reason):
-        # Select the given reason and click 'Quit session'
+        # select reason and quit session.'
         reason_map = {
             'option_1': self.reason_option_1,
             'option_2': self.reason_option_2,
